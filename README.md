@@ -1,17 +1,19 @@
 Usage: 
 
-import { LitElement, html } from '@polymer/lit-element';
-import { SharedStyles } from '../shared-styles.js';
-import { generator } from 'tagged-template-literal-generator';
+```
 
-const template = require('./test-component.html');
+import { LitElement, html } from '@polymer/lit-element';  
+import { SharedStyles } from '../shared-styles.js';  
+import { generator } from 'tagged-template-literal-generator';  
 
-export class TestComponent extends LitElement {
-  static get properties() { 
-    return {
-       prop: String,
-    }
-  }
+const template = require('./test-component.html');  
+
+export class TestComponent extends LitElement {  
+  static get properties() {  
+    return {  
+       prop: String  
+    }  
+  }  
 
   constructor() {
     super();
@@ -24,3 +26,5 @@ export class TestComponent extends LitElement {
 }
 
 window.customElements.define('test-component', TestComponent);
+
+```
