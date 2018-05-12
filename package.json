@@ -1,11 +1,19 @@
 {
   "name": "tagged-template-literal-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evaluates a tagged template literal dynamically",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrew Noblet",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anoblet/tagged-template-literal-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anoblet/tagged-template-literal-generator/issues"
+  },
+  "homepage": "https://github.com/anoblet/tagged-template-literal-generator#readme"
 }
