@@ -1,7 +1,7 @@
 Update: Added new strToTag function. Usage is as follows:
 
 ```
-${strToTag.bind(this)("${this.prop}", html)
+strToTag.bind(this)("${this.prop}", html)
 ```
 
 Old usage:
