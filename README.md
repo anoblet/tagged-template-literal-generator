@@ -1,7 +1,12 @@
-Usage: 
+Update: Added new strToTag function. Usage is as follows:
 
 ```
+${strToTag.bind(this)("${this.prop}", html)
+```
 
+Old usage:
+
+```
 import { LitElement, html } from '@polymer/lit-element';  
 import { SharedStyles } from '../shared-styles.js';  
 import { generator } from 'tagged-template-literal-generator';  
